@@ -5,13 +5,16 @@ import { useState } from 'react';
 function App() {
 
   const [showText,setShowText] = useState('hola mundo')
+
+  console.log(showText)
+
   
   return (
     <div className='App'>
 
+
+
     </div>
-
-
   );
 }
 
